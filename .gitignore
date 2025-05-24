@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+*.env
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Secrets and env variables
+.env
+*.secret
+secrets.json
+
+# Compiled files
+*.pyc
+
+# Migrations (optional, if you want clean history)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Uncomment below if you don’t want to track migration files
+# */migrations/*.py
+
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Gunicorn binary (if installed globally, no issue)
+# If installed inside a virtual environment, it will be ignored by ignoring env/
